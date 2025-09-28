@@ -1,16 +1,16 @@
 # 🚀 Your Twilio WhatsApp Setup Guide
 
 ## ✅ Your Twilio Account Details
-- **Account SID**: `YOUR_ACCOUNT_SID_HERE`
-- **Phone Number**: `YOUR_PHONE_NUMBER_HERE`
-- **Location**: Your Location
+- **Account SID**: `AC6425d40fad5531921a08f161fe7e87c3`
+- **Phone Number**: `+1 832 905 1435`
+- **Location**: League City, TX, US
 
 ## 🔧 Step 1: Create Environment File (2 minutes)
 
 Create a file called `.env.local` in your project root with:
 
 ```env
-TWILIO_ACCOUNT_SID=YOUR_ACCOUNT_SID_HERE
+TWILIO_ACCOUNT_SID=AC6425d40fad5531921a08f161fe7e87c3
 TWILIO_AUTH_TOKEN=your_actual_auth_token_here
 TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
 ```
@@ -56,10 +56,10 @@ curl -X POST http://localhost:3000/api/test-whatsapp \
 
 When ready for production:
 1. Apply for WhatsApp Business API approval
-2. Get your number approved for WhatsApp
+2. Get your number `+1 832 905 1435` approved for WhatsApp
 3. Update `.env.local`:
    ```env
-   TWILIO_WHATSAPP_NUMBER=whatsapp:+YOUR_PHONE_NUMBER
+   TWILIO_WHATSAPP_NUMBER=whatsapp:+18329051435
    ```
 
 ## 🆘 Troubleshooting
